@@ -1,4 +1,4 @@
-default-http-context
-====================
+http-context-simple
+===================
 
-Default implementation of the OSGi HttpContext.
+Simple implementation of the OSGi HttpContext.
