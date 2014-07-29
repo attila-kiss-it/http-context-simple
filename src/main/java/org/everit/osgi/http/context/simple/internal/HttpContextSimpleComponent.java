@@ -34,7 +34,7 @@ import org.osgi.service.cm.ConfigurationException;
 import org.osgi.service.http.HttpContext;
 
 @Component(name = HttpContextSimpleConstants.SERVICE_FACTORYPID_RESOURCE, metatype = true,
-        configurationFactory = false, policy = ConfigurationPolicy.REQUIRE)
+        configurationFactory = true, policy = ConfigurationPolicy.REQUIRE)
 @Properties({
         @Property(name = HttpWhiteboardConstants.CONTEXT_ID,
                 value = HttpContextSimpleConstants.DEFAULT_CONTEXT_ID),
